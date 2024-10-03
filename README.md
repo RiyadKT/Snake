@@ -17,7 +17,7 @@ CNN-based Strategy: A convolutional neural network (CNN) applied to enhance game
 
 Customizable Settings: Tune the game speed, grid size, and AI behavior to test different scenarios.
 
-
+Video sequence from the CNN-based snake.
 
 https://github.com/user-attachments/assets/624bb12c-4cb8-4ac2-b234-9ecabeed60ad
 
