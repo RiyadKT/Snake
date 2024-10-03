@@ -3,7 +3,7 @@ import math
 
 
 #Function used to find destination cell in A*
-def find_food(gamestate):
+def find_food(gamestate,n=n,m=m):
     mat=gamestate.tab
     for i in range(n):
         for j in range(m):
@@ -24,7 +24,7 @@ mov_list=[(-1,0),(1,0),(0,1),(0,-1)]
 
 
 #A* algorithm,using list data structure, could have used heap, see swap game project for example.
-def find_shortest_path(gamestate,borders=False):
+def find_shortest_path(gamestate,borders=True):
     x0,y0=gamestate.snake_list[0]
     tab_dist={(x0,y0):0}
     prev={}
