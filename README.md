@@ -1,6 +1,6 @@
 
 
-#Snake Game with A* Algorithm and CNN-based Pathfinding
+# Snake Game with A* Algorithm and CNN-based Pathfinding
 
 This repository contains an implementation of the classic Snake game enhanced with two key features:
 
